@@ -1,0 +1,109 @@
+{
+  "data": {
+    "cup": {
+      "bands": [
+        {
+          "id": 1,
+          "type": "cup",
+          "min_teams": 2,
+          "max_teams": 10,
+          "price": 100,
+          "advanced_price": 50
+        },
+        {
+          "id": 2,
+          "type": "cup",
+          "min_teams": 11,
+          "max_teams": 20,
+          "price": 200,
+          "advanced_price": 50
+        },
+        {
+          "id": 3,
+          "type": "cup",
+          "min_teams": 21,
+          "max_teams": 30,
+          "price": 300,
+          "advanced_price": 100
+        },
+        {
+          "id": 4,
+          "type": "cup",
+          "min_teams": 31,
+          "max_teams": 40,
+          "price": 400,
+          "advanced_price": 200
+        },
+        {
+          "id": 5,
+          "type": "cup",
+          "min_teams": 41,
+          "max_teams": 50,
+          "price": 500,
+          "advanced_price": 300
+        },
+        {
+          "id": 6,
+          "type": "cup",
+          "min_teams": 51,
+          "max_teams": 60,
+          "price": 600,
+          "advanced_price": 400
+        }
+      ]
+    },
+    "league": {
+      "bands": [
+        {
+          "id": 7,
+          "type": "league",
+          "min_teams": 2,
+          "max_teams": 10,
+          "price": 200,
+          "advanced_price": null
+        },
+        {
+          "id": 8,
+          "type": "league",
+          "min_teams": 11,
+          "max_teams": 20,
+          "price": 300,
+          "advanced_price": null
+        },
+        {
+          "id": 9,
+          "type": "league",
+          "min_teams": 21,
+          "max_teams": 30,
+          "price": 400,
+          "advanced_price": null
+        },
+        {
+          "id": 10,
+          "type": "league",
+          "min_teams": 31,
+          "max_teams": 40,
+          "price": 500,
+          "advanced_price": null
+        },
+        {
+          "id": 11,
+          "type": "league",
+          "min_teams": 41,
+          "max_teams": 50,
+          "price": 600,
+          "advanced_price": null
+        },
+        {
+          "id": 12,
+          "type": "league",
+          "min_teams": 51,
+          "max_teams": 60,
+          "price": 700,
+          "advanced_price": null
+        }
+      ]
+    }
+  },
+  "status_code": "200"
+}

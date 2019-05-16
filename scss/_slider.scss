@@ -1,0 +1,69 @@
+//Rangeslider overrides
+
+.rangeslider--horizontal.rangeslider {
+  margin-top: 40px;
+}
+
+.rangeslider--horizontal.rangeslider,
+.rangeslider--horizontal .rangeslider__fill {
+  background-color: rgba(199, 211, 33, 0.5);
+  height: 10px;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.rangeslider--horizontal .rangeslider__handle {
+  border: none;
+  border-radius: 0;
+  background: url(slider-thumb.svg) no-repeat;
+  box-shadow: none;
+  width: 73px;
+  height: 60px;
+  top: -25px;
+  font-family: Poppins, sans-serif;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 6px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.rangeslider--horizontal .rangeslider__handle:after {
+  display: none;
+}
+
+.rangeslider--horizontal .rangeslider__handle:active, 
+.rangeslider--horizontal.rangeslider--active .rangeslider__handle {
+  background: url(slider-thumb.svg) no-repeat;  
+}
+
+.num-teams {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.emm-slider-button {
+  display: block;
+  margin: 45px auto;
+  background: linear-gradient(90deg, #0078AB 0%, #00B2FF 100%);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.25);
+  padding: 20px 30px;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emm-slider-button-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  display: block;
+  text-transform: uppercase;
+}
