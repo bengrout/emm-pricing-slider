@@ -20,6 +20,7 @@ function initSlider(priceBands) {
 	.on('input', function() {
 		updateHandle($handle[0], this.value);
 	 	updatePrice(this.value, priceBands);
+	 	updateFormAction(this.value);
 	});	
 }
 
@@ -40,6 +41,11 @@ function updatePrice(val, priceBands) {
 	}
 
 	$('#emm-price').text(foundPrice);
+}
+
+function updateFormAction(val) {
+	var url = 'https://example.com/?teams='
+	$('#emm-prices-form').attr({action: url + val});
 }
 
 function filterByTeams(item) {
